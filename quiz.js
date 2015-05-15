@@ -10,6 +10,7 @@ function askQuestion () {
     $q.html(questions[questionNum][0]);
     $a.html(questions[questionNum][1]);
     $('#questionNum').html(questionNum + 1);
+    $('.scratchSheet').val('');
     questionNum++;
 }
 function revealAnswer () {
@@ -26,6 +27,6 @@ function init () {
             $('#reveal').click(revealAnswer);
             $('#next').click(askQuestion);
             askQuestion();
-        })
+        });
 }
 init();

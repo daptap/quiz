@@ -11,7 +11,23 @@
 		["Accessibility for Data Tables", "Table Headers should be used with scope=\"col\" or scope=\"row\""],
 		["Accessibility for Layout Tables", "Do not use structural markup like th.  Content should be linear or go page down"],
 		["Accessiblity for Form labels", "Ensure that instructuve text is placed at the beginning of a form.  Provide labels or instructions for user input.  Provide explicit labels for form fields.  Ensure form field labels are uniqure.  Provide fieldset and legend for field groups.  Use title attribute of field when explicit labels are not possible.  Clicking on an explicit label will focus the form field. Use for attribute of label to match id of field"],
-		["Where is the language toggle located and what service does it use", "Located in Universal Layout in wdprUILanguageToggle.  It uses the contentLocaleService in wdprAngularCore.service."]
-
+		["Where is the language toggle located and what service does it use", "Located in Universal Layout in wdprUILanguageToggle.  It uses the contentLocaleService in wdprAngularCore.service."],
+		["How do you turn on crisis messaging", "2 toggles need to be on 'Enable Example Crisis Message' under 'Developer Toggles' and 'Crisis Messaging Every Page' under Release Toggles'"],
+		["How do you use a node module", "var something = require('module name')"],
+		["Create a simple express app", "var app = express();<br>app.get('/', function (request, response){response.send('message')}; <br>app.listen(3000)"],
+	    ["How do you get a parameter from a request","request.param('foo')<br> be sure to use urlencoded middleware to parse incoming content"],
+	    ["How do you mount a middleware on Express","app.use('express.urlencoded()')"],
+	    ["What is middleware and how do you create one in Express","Its a means of filtering data as its coming in from an http request before it goes to your business logic. <br>function authUser(request, response, next) <br>{<br>var user ={admin:true};<br>request.user = user<br>next();}<br>app.use(authUser). <br>If you want to use middleware in only specific routes you can include pass it in the route - app.post('/doStuff', authUser, function...)"],
+	    ["Write a simple polymer element", "<polymer-element name='custom-element'><br><style></style><br><template></template><br><script></script><br></polymer-element>"],
+	    ["Where are the media service configuration uris","src/application/configs/serviceConfig.ini"],
+	    ["What are the lifecycles in polymer","created, domReady, ready, attached, detatched, attributeChanged"],
+	    ["What are polymer scoped styles","<style scoped></style>"],
+	    ["How do create a js custom element","var proto = Object.create(HTMLElement.prototype);<br>proto.createdCallback = function(){this.textContent='HI'};<br>document.register('js-something',{prototype: proto});"],
+	    ["How do you create a js template","var t = document.querySelector('#myTemplate').content;<br>t.querySelector('img').src='some.png';<br>document.body.appendChild(t.cloneNode(true));"],
+	    ["How do you create a js shadow dom","var elem = document.querySelector('#myDiv');<br>var shadowDOM = elem.createShadowRoot();<br>shadowDOM.innerHTML = 'something';"],
+	    ["Javascript array api","Array.isArray, toString(), join(), push(), splice(), pop(), slice(), unshift(), shift(), reverse(), sort(), myArray.concat(myArray2)"],
+	    ["Javascript string api","split(),indexOf(),lastIndexOf(),replace(),charAt(),charCodeAt(),concat(),slice(),substring(),substr(),toUpperCase(),toLowerCase(),match(),exec(),search(),myString.localeCompare(string);"],
+	    ["Ecmascript 5 Array","Array.prototype.indexOf, Array.prototype.lastIndexOf, Array.prototype.forEach, Array.prototype.every, Array.prototype.some, Array.prototype.map, Array.prototype.filter, Array.prototype.reduce, Array.prototype.reduceRight"],
+	    ["Ecmascript 5 Oject","Object.preventExtensions(obj), Object.seal(obj), Object.freeze(obj), isExtensible, isSealed, isFrozen, Object.create(parent)"]
 	]
 }
