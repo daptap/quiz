@@ -42,6 +42,9 @@
 	    ["Create a sample custom element","http://jsbin.com/tufuto/28/edit"],
 	    ["Angular isolate scope","http://weblogs.asp.net/dwahlin/creating-custom-angularjs-directives-part-2-isolate-scope"],
 	    ["Angular $apply vs $digest",""],
-	    ["CSS Flex","https://css-tricks.com/snippets/css/a-guide-to-flexbox/"]
+	    ["CSS Flex","https://css-tricks.com/snippets/css/a-guide-to-flexbox/"],
+	    ["Angular routes and states",""],
+	    ["Angular template cache",""],
+	    ["Angular promises",""]
 	]
 }
