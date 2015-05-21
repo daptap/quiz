@@ -39,6 +39,9 @@
 	    ["How can you get the arguments passed to a function","arguments"],
 	    ["In Ecmascript 6, how do you design a function that get arbritrary number of arguments?","rest<br>function something (...rest) {}"],
 	    ["What is Ecmascript 6 fat arrow?",""],
-	    ["Create a sample custom element","http://jsbin.com/tufuto/28/edit"]
+	    ["Create a sample custom element","http://jsbin.com/tufuto/28/edit"],
+	    ["Angular isolate scope","http://weblogs.asp.net/dwahlin/creating-custom-angularjs-directives-part-2-isolate-scope"],
+	    ["Angular $apply vs $digest",""],
+	    ["CSS Flex","https://css-tricks.com/snippets/css/a-guide-to-flexbox/"]
 	]
 }
