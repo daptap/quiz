@@ -42,9 +42,16 @@
 	    ["Create a sample custom element","http://jsbin.com/tufuto/28/edit"],
 	    ["Angular isolate scope","http://weblogs.asp.net/dwahlin/creating-custom-angularjs-directives-part-2-isolate-scope"],
 	    ["Angular $apply vs $digest",""],
-	    ["CSS Flex","https://css-tricks.com/snippets/css/a-guide-to-flexbox/"],
-	    ["Angular routes and states",""],
 	    ["Angular template cache",""],
-	    ["Angular promises",""]
+	    ["Angular promises",""],
+	    ["In Angular how can you unwatch a watcher","var aWatcher = $scope.$watch('someModel', function (newVal, oldVal) { ..... }<br>aWatcher()"],
+	    ["In DCL, where is the home page quick quote data coming from","homepage/services/quickquote.factory.js"],
+	    ["How do you cloneNode and how do you importNode",""],
+	    ["In angular, describe what happens if you put a dot like data.message", "Scope Inherithance, so that the controllers can share model and bind everywhere"],
+	    ["In Angular, create states","http://jsbin.com/cibubi/8/edit"],
+	    ["In Angular, create filters","http://jsbin.com/lijiti/3/edit"],
+	    ["In Angular, explain the different scopes","scope: {}"],
+	    ["What is CSS flexbox","https://css-tricks.com/snippets/css/a-guide-to-flexbox/"],
+	    ["In Angular, explain the difference between Factory, Service, Provider", "http://tylermcginnis.com/angularjs-factory-vs-service-vs-provider/"]
 	]
 }
