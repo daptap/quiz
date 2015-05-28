@@ -25,8 +25,7 @@
 	    ["How do create a js custom element","http://jsbin.com/golepu/7/edit"],
 	    ["How do you create a js template","var t = document.querySelector('#myTemplate').content;<br>t.querySelector('img').src='some.png';<br>document.body.appendChild(t.cloneNode(true));"],
 	    ["How do you create a js shadow dom","var elem = document.querySelector('#myDiv');<br>var shadowDOM = elem.createShadowRoot();<br>shadowDOM.innerHTML = 'something';"],
-	    ["Javascript array api","Array.isArray, toString(), join(), push(), splice(), pop(), slice(), unshift(), shift(), reverse(), sort(), myArray.concat(myArray2)"],
-	    ["Javascript string api","split(),indexOf(),lastIndexOf(),replace(),charAt(),charCodeAt(),concat(),slice(),substring(),substr(),toUpperCase(),toLowerCase(),match(),exec(),search(),myString.localeCompare(string);"],
+	    ["Javascript array api and Javascript string api","Array.isArray, toString(), join(), push(), splice(), pop(), slice(), unshift(), shift(), reverse(), sort(), myArray.concat(myArray2) ---- split(),indexOf(),lastIndexOf(),replace(),charAt(),charCodeAt(),concat(),slice(),substring(),substr(),toUpperCase(),toLowerCase(),match(),exec(),search(),myString.localeCompare(string)"],
 	    ["Ecmascript 5 Array","Array.prototype.indexOf, Array.prototype.lastIndexOf, Array.prototype.forEach, Array.prototype.every, Array.prototype.some, Array.prototype.map, Array.prototype.filter, Array.prototype.reduce, Array.prototype.reduceRight"],
 	    ["Ecmascript 5 Oject","Object.preventExtensions(obj), Object.seal(obj), Object.freeze(obj), isExtensible, isSealed, isFrozen, Object.create(parent)"],
 	    ["Configurable JS Objects","Object.defineProperty(obj, 'someProp', {configurable: false, value: 4}<br>When set to false, the property is sealed from modifications"],
@@ -52,6 +51,8 @@
 	    ["In Angular, explain the different scopes","scope: {}"],
 	    ["What is CSS flexbox","https://css-tricks.com/snippets/css/a-guide-to-flexbox/"],
 	    ["In Angular, explain the difference between Factory, Service, Provider", "http://tylermcginnis.com/angularjs-factory-vs-service-vs-provider/"],
-	    ["Angular promises","https://lostechies.com/gabrielschenker/2014/02/04/angularjspart-11-promises/"]
+	    ["Angular promises","https://lostechies.com/gabrielschenker/2014/02/04/angularjspart-11-promises/"],
+        ["Angular scope vs $scope", "https://egghead.io/lessons/angularjs-scope-vs-scope"],
+        ["Angular compile vs controller vs link", "http://odetocode.com/blogs/scott/archive/2014/05/28/compile-pre-and-post-linking-in-angularjs.aspx"]
 	]
 }
