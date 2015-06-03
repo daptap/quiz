@@ -23,8 +23,6 @@
 	    ["What are the lifecycles in polymer","created, domReady, ready, attached, detatched, attributeChanged"],
 	    ["What are polymer scoped styles","<style scoped></style>"],
 	    ["How do create a js custom element","http://jsbin.com/golepu/7/edit"],
-	    ["How do you create a js template","var t = document.querySelector('#myTemplate').content;<br>t.querySelector('img').src='some.png';<br>document.body.appendChild(t.cloneNode(true));"],
-	    ["How do you create a js shadow dom","var elem = document.querySelector('#myDiv');<br>var shadowDOM = elem.createShadowRoot();<br>shadowDOM.innerHTML = 'something';"],
 	    ["Javascript array api and Javascript string api","Array.isArray, toString(), join(), push(), splice(), pop(), slice(), unshift(), shift(), reverse(), sort(), myArray.concat(myArray2) ---- split(),indexOf(),lastIndexOf(),replace(),charAt(),charCodeAt(),concat(),slice(),substring(),substr(),toUpperCase(),toLowerCase(),match(),exec(),search(),myString.localeCompare(string)"],
 	    ["Ecmascript 5 Array","Array.prototype.indexOf, Array.prototype.lastIndexOf, Array.prototype.forEach, Array.prototype.every, Array.prototype.some, Array.prototype.map, Array.prototype.filter, Array.prototype.reduce, Array.prototype.reduceRight"],
 	    ["Ecmascript 5 Oject","Object.preventExtensions(obj), Object.seal(obj), Object.freeze(obj), isExtensible, isSealed, isFrozen, Object.create(parent)"],
@@ -44,7 +42,7 @@
 	    ["Angular template cache","https://egghead.io/lessons/angularjs-templatecache"],
 	    ["In Angular how can you unwatch a watcher","var aWatcher = $scope.$watch('someModel', function (newVal, oldVal) { ..... }<br>aWatcher()"],
 	    ["In DCL, where is the home page quick quote data coming from","homepage/services/quickquote.factory.js"],
-	    ["How do you cloneNode and how do you importNode",""],
+	    ["Create a Web Component","http://webcomponents.org/articles/introduction-to-custom-elements/"],
 	    ["In angular, describe what happens if you put a dot like data.message", "Scope Inherithance, so that the controllers can share model and bind everywhere"],
 	    ["In Angular, create states","http://jsbin.com/cibubi/8/edit"],
 	    ["In Angular, create filters","http://jsbin.com/lijiti/3/edit"],
@@ -54,6 +52,7 @@
 	    ["Angular promises","https://lostechies.com/gabrielschenker/2014/02/04/angularjspart-11-promises/"],
         ["Angular scope vs $scope", "https://egghead.io/lessons/angularjs-scope-vs-scope"],
         ["Angular compile vs controller vs link", "http://odetocode.com/blogs/scott/archive/2014/05/28/compile-pre-and-post-linking-in-angularjs.aspx"],
-        ["Polymer - create a custom element with a local DOM", "https://www.polymer-project.org/1.0/docs/start/quick-tour.html"]
+        ["Polymer - create a custom element with a local DOM", "https://www.polymer-project.org/1.0/docs/start/quick-tour.html"],
+        ['How do you extend a Javascript object','http://jsbin.com/gadone/4/edit']
 	]
 }
