@@ -18,7 +18,7 @@
 	    ["In Express How do you get a parameter from a request","request.param('foo')<br> be sure to use urlencoded middleware to parse incoming content"],
 	    ["How do you mount a middleware on Express","app.use('express.urlencoded()')"],
 	    ["What is middleware and how do you create one in Express","Its a means of filtering data as its coming in from an http request before it goes to your business logic. <br>function authUser(request, response, next) <br>{<br>var user ={admin:true};<br>request.user = user<br>next();}<br>app.use(authUser). <br>If you want to use middleware in only specific routes you can include pass it in the route - app.post('/doStuff', authUser, function...)"],
-	    ["Write a simple polymer element", "http://jsbin.com/naliga/1/edit?html"],
+	    ["Write a simple polymer element", "https://www.polymer-project.org/1.0/docs/devguide/feature-overview.html"],
 	    ["Where are the media service configuration uris","src/application/configs/serviceConfig.ini"],
 	    ["What are the lifecycles in polymer","created, domReady, ready, attached, detatched, attributeChanged"],
 	    ["What are polymer scoped styles","<style scoped></style>"],
@@ -54,6 +54,9 @@
 	    ["Angular promises","https://lostechies.com/gabrielschenker/2014/02/04/angularjspart-11-promises/"],
         ["Angular scope vs $scope", "https://egghead.io/lessons/angularjs-scope-vs-scope"],
         ["Angular compile vs controller vs link", "http://odetocode.com/blogs/scott/archive/2014/05/28/compile-pre-and-post-linking-in-angularjs.aspx"],
-        ["Polymer - create a custom element with a local DOM", "https://www.polymer-project.org/1.0/docs/start/quick-tour.html"]
+        ["Polymer - create a custom element with a local DOM", "https://www.polymer-project.org/1.0/docs/start/quick-tour.html"],
+        ["Polymer - register element","https://www.polymer-project.org/1.0/docs/devguide/registering-elements.html"],
+        ["Polymer - element declared properties","https://www.polymer-project.org/1.0/docs/devguide/properties.html"],
+        ["Polymer - how do you apply theming", "https://www.youtube.com/watch?v=omASiF85JzI"]
 	]
 }
